@@ -43,7 +43,7 @@
   width: 7px;
   height: 7px;
 }
-.contact-text01 {
+.contact-text1 {
   color: rgb(18, 40, 33);
   font-size: 18px;
   font-family: Lato;
@@ -103,7 +103,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.contact-text02 {
+.contact-text2 {
   color: rgba(18, 40, 33, 1);
   font-size: 24px;
   line-height: 36px;
@@ -112,7 +112,7 @@
   width: 7px;
   height: 7px;
 }
-.contact-text03 {
+.contact-text3 {
   color: rgba(18, 40, 33, 1);
   font-size: 18px;
   font-family: Lato;
@@ -215,7 +215,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.contact-text06 {
+.contact-text6 {
   color: rgb(18, 40, 33);
   width: 100%;
   font-size: 56px;
@@ -224,7 +224,7 @@
   text-align: center;
   font-weight: 500;
 }
-.contact-text07 {
+.contact-text7 {
   color: rgb(18, 40, 33);
   width: 100%;
   font-size: 20px;
@@ -263,11 +263,6 @@
   justify-content: center;
   background-color: #F3F3F3;
 }
-.contact-text08 {
-  font-style: normal;
-  font-family: Lato;
-  font-weight: 700;
-}
 .contact-textinput1 {
   flex: 1;
   color: #122821;
@@ -293,14 +288,6 @@
   justify-content: center;
   background-color: #F3F3F3;
 }
-.contact-text09 {
-  color: rgb(18, 40, 33);
-  height: 100px;
-  outline: inherit;
-  font-family: Lato;
-  font-weight: 600;
-  background-color: transparent;
-}
 .contact-textarea {
   flex: 1;
   color: #122821;
@@ -324,11 +311,6 @@
   padding-bottom: 2px;
   justify-content: center;
   background-color: #F3F3F3;
-}
-.contact-text10 {
-  font-style: normal;
-  font-family: Lato;
-  font-weight: 700;
 }
 .contact-textinput2 {
   flex: 1;
@@ -366,13 +348,13 @@
   .contact-icon {
     display: none;
   }
-  .contact-text01 {
+  .contact-text1 {
     display: none;
   }
   .contact-icon02 {
     display: none;
   }
-  .contact-text03 {
+  .contact-text3 {
     display: none;
   }
   .contact-newsletter {
@@ -383,10 +365,10 @@
     padding-right: var(--dl-space-space-oneandhalfunits);
     padding-bottom: var(--dl-space-space-threeunits);
   }
-  .contact-text06 {
+  .contact-text6 {
     font-size: 32px;
   }
-  .contact-text07 {
+  .contact-text7 {
     font-size: 16px;
     line-height: 24px;
   }
