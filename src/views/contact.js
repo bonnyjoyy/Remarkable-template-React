@@ -106,6 +106,7 @@ const Contact = (props) => {
           netlify
           action="/thanks"
           method="POST"
+          id="contact_form"
           className="contact-form"
         >
           <div className="contact-container2">
@@ -153,6 +154,35 @@ const Contact = (props) => {
           </div>
         </form>
       </section>
+      <div>
+        <Script
+          html={`<script>
+  document
+    .querySelector("form")
+    .addEventListener("submit", handleSubmit);
+ 
+  function handleSubmit(e) {
+ 
+    e.preventDefault();
+ 
+    let myForm = document.getElementById("contact_form");
+    let formData = new FormData(myForm);
+    formData.set("form-name", "contact");
+ 
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: new URLSearchParams(formData).toString(),
+    })
+      .then(response => {
+        console.log(response);
+        setTimeout(() => location = "/success", 100);
+      })
+      .catch((error) => alert(error));
+  };
+</script>`}
+        ></Script>
+      </div>
       <Footer></Footer>
       <div>
         <Script
