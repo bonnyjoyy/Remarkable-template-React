@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 import './style.css'
 import Contact from './views/contact'
 import Home from './views/home'
+import Thanks from './views/thanks'
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <div>
         <Route component={Contact} exact path="/contact" />
         <Route component={Home} exact path="/" />
+        <Route component={Thanks} exact path="/thanks" />
       </div>
     </Router>
   )
