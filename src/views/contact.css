@@ -43,7 +43,7 @@
   width: 7px;
   height: 7px;
 }
-.contact-text1 {
+.contact-text01 {
   color: rgb(18, 40, 33);
   font-size: 18px;
   font-family: Lato;
@@ -103,7 +103,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.contact-text2 {
+.contact-text02 {
   color: rgba(18, 40, 33, 1);
   font-size: 24px;
   line-height: 36px;
@@ -112,7 +112,7 @@
   width: 7px;
   height: 7px;
 }
-.contact-text3 {
+.contact-text03 {
   color: rgba(18, 40, 33, 1);
   font-size: 18px;
   font-family: Lato;
@@ -215,7 +215,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.contact-text6 {
+.contact-text06 {
   color: rgb(18, 40, 33);
   width: 100%;
   font-size: 56px;
@@ -224,7 +224,7 @@
   text-align: center;
   font-weight: 500;
 }
-.contact-text7 {
+.contact-text07 {
   color: rgb(18, 40, 33);
   width: 100%;
   font-size: 20px;
@@ -263,6 +263,11 @@
   justify-content: center;
   background-color: #F3F3F3;
 }
+.contact-text08 {
+  font-style: normal;
+  font-family: Lato;
+  font-weight: 700;
+}
 .contact-textinput1 {
   flex: 1;
   color: #122821;
@@ -276,6 +281,7 @@
   height: 151px;
   display: flex;
   overflow: hidden;
+  position: relative;
   align-items: center;
   padding-top: 2px;
   padding-left: var(--dl-space-space-oneandhalfunits);
@@ -286,6 +292,14 @@
   padding-bottom: 2px;
   justify-content: center;
   background-color: #F3F3F3;
+}
+.contact-text09 {
+  color: rgb(18, 40, 33);
+  height: 100px;
+  outline: inherit;
+  font-family: Lato;
+  font-weight: 600;
+  background-color: transparent;
 }
 .contact-textarea {
   flex: 1;
@@ -310,6 +324,11 @@
   padding-bottom: 2px;
   justify-content: center;
   background-color: #F3F3F3;
+}
+.contact-text10 {
+  font-style: normal;
+  font-family: Lato;
+  font-weight: 700;
 }
 .contact-textinput2 {
   flex: 1;
@@ -347,13 +366,13 @@
   .contact-icon {
     display: none;
   }
-  .contact-text1 {
+  .contact-text01 {
     display: none;
   }
   .contact-icon02 {
     display: none;
   }
-  .contact-text3 {
+  .contact-text03 {
     display: none;
   }
   .contact-newsletter {
@@ -364,10 +383,10 @@
     padding-right: var(--dl-space-space-oneandhalfunits);
     padding-bottom: var(--dl-space-space-threeunits);
   }
-  .contact-text6 {
+  .contact-text06 {
     font-size: 32px;
   }
-  .contact-text7 {
+  .contact-text07 {
     font-size: 16px;
     line-height: 24px;
   }

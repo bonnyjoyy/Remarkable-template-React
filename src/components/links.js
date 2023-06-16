@@ -17,6 +17,7 @@ const Links = (props) => {
         </Link>
       </button>
       <button className="links-button1 button">{props.button}</button>
+      <label className="">{props.text2}</label>
     </nav>
   )
 }
@@ -26,6 +27,7 @@ Links.defaultProps = {
   text: 'Contact',
   text1: 'Home',
   rootClassName: '',
+  text2: 'Label',
 }
 
 Links.propTypes = {
@@ -33,6 +35,7 @@ Links.propTypes = {
   text: PropTypes.string,
   text1: PropTypes.string,
   rootClassName: PropTypes.string,
+  text2: PropTypes.string,
 }
 
 export default Links

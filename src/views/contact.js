@@ -21,7 +21,7 @@ const Contact = (props) => {
             <svg viewBox="0 0 1024 1024" className="contact-icon">
               <path d="M128 128h768v768h-768z"></path>
             </svg>
-            <span className="contact-text1">Gabriela Casado</span>
+            <span className="contact-text01">Gabriela Casado</span>
           </div>
           <div
             data-thq="thq-navbar-nav"
@@ -41,11 +41,11 @@ const Contact = (props) => {
           <div data-thq="thq-mobile-menu" className="contact-mobile-menu">
             <div className="contact-top">
               <div className="contact-branding1">
-                <span className="contact-text2">Remarkable</span>
+                <span className="contact-text02">Remarkable</span>
                 <svg viewBox="0 0 1024 1024" className="contact-icon02">
                   <path d="M128 128h768v768h-768z"></path>
                 </svg>
-                <span className="contact-text3">Remarkable</span>
+                <span className="contact-text03">Remarkable</span>
               </div>
               <div data-thq="thq-close-menu" className="contact-menu-close">
                 <svg viewBox="0 0 1024 1024" className="contact-icon04">
@@ -96,8 +96,8 @@ const Contact = (props) => {
       </div>
       <section className="contact-newsletter">
         <div className="contact-header">
-          <h2 className="contact-text6">Get in touch</h2>
-          <p className="contact-text7">
+          <h2 className="contact-text06">Get in touch</h2>
+          <p className="contact-text07">
             Let&apos;s get started, how can I help?
           </p>
         </div>
@@ -117,6 +117,7 @@ const Contact = (props) => {
               className="input"
             />
             <div className="contact-name">
+              <label className="contact-text08">Name:</label>
               <input
                 type="text"
                 placeholder="Enter your Name"
@@ -125,6 +126,7 @@ const Contact = (props) => {
               />
             </div>
             <div className="contact-question">
+              <label className="contact-text09 input">Name: </label>
               <textarea
                 placeholder="Enter question here"
                 name="message"
@@ -132,6 +134,7 @@ const Contact = (props) => {
               ></textarea>
             </div>
             <div className="contact-email">
+              <label className="contact-text10">email:</label>
               <input
                 type="email"
                 placeholder="Enter your email"
