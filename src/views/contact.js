@@ -101,7 +101,7 @@ const Contact = (props) => {
             Let&apos;s get started, how can I help?
           </p>
         </div>
-        <form name="contact" netlify="netlify" className="contact-form">
+        <form name="contact" netlify className="contact-form">
           <div className="contact-container2">
             <div className="contact-name">
               <input
