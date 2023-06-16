@@ -232,6 +232,10 @@
   line-height: 30px;
   margin-bottom: 10px;
 }
+.contact1-div {
+  width: 449px;
+  height: 244px;
+}
 @media(max-width: 991px) {
   .contact1-navbar-interactive {
     padding-left: var(--dl-space-space-oneandhalfunits);

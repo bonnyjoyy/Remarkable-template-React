@@ -41,7 +41,9 @@ const Footer = (props) => {
       <div className="footer-links">
         <div className="footer-column"></div>
         <div className="footer-column1">
-          <span className="link">{props.Text6}</span>
+          <Link to="/contact1" className="footer-text2 link">
+            {props.Text6}
+          </Link>
           <span className="link">{props.Text7}</span>
           <span className="link">{props.Text8}</span>
           <a

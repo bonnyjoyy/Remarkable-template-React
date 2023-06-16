@@ -101,33 +101,28 @@ const Contact1 = (props) => {
             Let&apos;s get started, how can I help?
           </p>
         </div>
-        <div>
+        <div className="contact1-div">
           <Script
-            html={`<form
-  name="contact"
-  method="POST"
-  netlify-honeypot="bot-field"
-  data-netlify="true"
->
-  <p class="hidden">
-    <label>
-      Don’t fill this out if you’re human: <input name="bot-field" />
-    </label>
-  </p>
-  <p>
-    <label>
-      Email: <input type="text" name="email" />
-    </label>
-  </p>
-  <p>
-    <label>
-      Message: <textarea name="message"></textarea>
-    </label>
-  </p>
-  <p>
-    <button type="submit">Send</button>
-  </p>
-</form>
+            html={`   <form name="contact" method="POST" data-netlify="true" 
+    data-netlify-honeypot="bot-field" action="/success/"
+    onSubmit="submit">
+        <input class="d-none" name="bot-field" />
+        <div class="form-row">
+            <div class="form-group col-md-6 mt-3">
+                <label for="name">Your Name</label>
+                <input type="text" class="form-control" id="name" name="name">
+              </div>
+          <div class="form-group col-md-6 mt-3">
+            <label for="inputEmail">Email</label>
+            <input type="email" class="form-control" id="inputEmail" name="email">
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary mt-3">Send</button>
+      </form>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 `}
           ></Script>
         </div>

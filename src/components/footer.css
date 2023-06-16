@@ -113,6 +113,9 @@
   align-items: flex-start;
   flex-direction: column;
 }
+.footer-text2 {
+  text-decoration: none;
+}
 .footer-text5 {
   text-decoration: none;
 }
