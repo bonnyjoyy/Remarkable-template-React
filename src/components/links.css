@@ -21,21 +21,7 @@
 }
 .links-button {
   color: rgb(18, 40, 33);
-  font-size: 18px;
-  font-family: Lato;
-  line-height: 27px;
-  padding-top: var(--dl-space-space-halfunit);
-  padding-left: 0px;
-  border-radius: 0px;
-  padding-right: 0px;
-  padding-bottom: var(--dl-space-space-halfunit);
-  background-color: transparent;
-}
-.links-navlink1 {
-  text-decoration: none;
-}
-.links-button1 {
-  color: rgb(18, 40, 33);
+  display: flex;
   font-size: 18px;
   font-family: Lato;
   line-height: 27px;
@@ -44,10 +30,15 @@
   padding-left: var(--dl-space-space-threeunits);
   border-radius: 0px;
   padding-right: 0px;
+  flex-direction: row;
   padding-bottom: var(--dl-space-space-halfunit);
   background-color: transparent;
   border-left-width: 1px;
 }
+.links-navlink1 {
+  text-decoration: none;
+}
+
 
 
 

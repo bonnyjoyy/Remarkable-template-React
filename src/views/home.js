@@ -44,7 +44,7 @@ const Home = (props) => {
           <div data-thq="thq-mobile-menu" className="home-mobile-menu">
             <div className="home-top">
               <div className="home-branding1">
-                <span className="home-text01">Remarkable</span>
+                <span className="home-text01">Artistree</span>
                 <svg viewBox="0 0 1024 1024" className="home-icon02">
                   <path d="M128 128h768v768h-768z"></path>
                 </svg>
@@ -58,10 +58,14 @@ const Home = (props) => {
             </div>
             <nav className="home-links">
               <button className="home-button button">
-                <span>Our offers</span>
+                <Link to="/" className="home-navlink1">
+                  Home
+                </Link>
               </button>
               <button className="home-button1 button">
-                <span>Get a fast quote</span>
+                <Link to="/contact" className="home-navlink2">
+                  Contact
+                </Link>
               </button>
               <button className="home-button2 button">Menu</button>
             </nav>
@@ -107,21 +111,21 @@ const Home = (props) => {
         </div>
       </header>
       <section className="home-mission">
-        <h2 className="home-text05">
+        <h2 className="home-text03">
           Join me in a relaxed environment and explore paint mediums and styles.
           Create a piece that you can be proud of and speaks to your
           individuality as an artist.
         </h2>
         <button className="button home-button3">
-          <span className="home-text06">Get in touch</span>
+          <span className="home-text04">Get in touch</span>
         </button>
       </section>
       <section className="home-improve">
         <div className="home-heading">
-          <h2 className="home-text07">
+          <h2 className="home-text05">
             Set new goals, to improve your expression
           </h2>
-          <p className="home-text08">
+          <p className="home-text06">
             Art is an expression of who you are, and with freedom and permission
             you CAN create art that is uniquely yours. 
           </p>
@@ -131,11 +135,11 @@ const Home = (props) => {
           <div className="home-content1">
             <div className="home-details">
               <div className="home-header">
-                <h2 className="home-text09">
+                <h2 className="home-text07">
                   Join a group of artistic exploration.
                 </h2>
                 <div className="home-description1">
-                  <p className="home-text10">
+                  <p className="home-text08">
                     Discover the transformative power of joining a group of
                     artistic exploration, where the journey is as enriching as
                     the destination.
@@ -145,7 +149,7 @@ const Home = (props) => {
                       }}
                     />
                   </p>
-                  <p className="home-text11">
+                  <p className="home-text09">
                     Together, we redefine your artistic boundaries, embracing
                     the uncharted territories of imagination towards artistic
                     self-discovery — where the power of unity propels us to soar
@@ -153,8 +157,8 @@ const Home = (props) => {
                   </p>
                 </div>
               </div>
-              <Link to="/contact" className="home-navlink1 button">
-                <span className="home-text12">
+              <Link to="/contact" className="home-navlink3 button">
+                <span className="home-text10">
                   <span>Get in touch</span>
                   <br></br>
                 </span>
@@ -173,12 +177,12 @@ const Home = (props) => {
       <section className="home-banner"></section>
       <section className="home-mission1">
         <div className="home-content2">
-          <h2 className="home-text15">
+          <h2 className="home-text13">
             Our mission is to be part of a vibrant tapestry woven by
             individuals, with boundless inspiration, and shared passion.
           </h2>
           <div className="home-description2">
-            <p className="home-text16">
+            <p className="home-text14">
               {' '}
               The process of creating art brings us immense joy as we surrender
               to the flow of inspiration, losing ourselves in the sheer delight
@@ -189,7 +193,7 @@ const Home = (props) => {
                 }}
               />
             </p>
-            <p className="home-text17">
+            <p className="home-text15">
               Art opens our eyes to the beauty that surrounds us, instilling a
               sense of wonder and appreciation for the world, and reminding us
               of the limitless possibilities that exist within our own
@@ -275,8 +279,8 @@ const Home = (props) => {
       </section>
       <section className="home-newsletter">
         <div className="home-header1">
-          <h2 className="home-text18">Subscribe to our newsletter</h2>
-          <p className="home-text19">
+          <h2 className="home-text16">Subscribe to our newsletter</h2>
+          <p className="home-text17">
             Sign up for our newsletter to get the latest news!
           </p>
         </div>

@@ -144,6 +144,9 @@
   border-radius: 28px;
   background-color: rgb(18, 40, 33);
 }
+.home-navlink1 {
+  text-decoration: none;
+}
 .home-button1 {
   color: var(--dl-color-gray-white);
   font-size: 18px;
@@ -151,6 +154,9 @@
   line-height: 27px;
   border-radius: 28px;
   background-color: rgb(18, 40, 33);
+}
+.home-navlink2 {
+  text-decoration: none;
 }
 .home-button2 {
   color: var(--dl-color-gray-white);
@@ -271,7 +277,7 @@
   flex-direction: column;
   padding-bottom: 120px;
 }
-.home-text05 {
+.home-text03 {
   color: rgb(18, 40, 33);
   width: 918px;
   font-size: 40px;
@@ -280,7 +286,7 @@
   font-weight: 500;
   line-height: 51px;
 }
-.home-text06 {
+.home-text04 {
   line-height: 21px;
 }
 .home-improve {
@@ -300,7 +306,7 @@
   align-items: center;
   flex-direction: column;
 }
-.home-text07 {
+.home-text05 {
   color: rgb(18, 40, 33);
   font-size: 40px;
   max-width: 600px;
@@ -309,7 +315,7 @@
   font-weight: 500;
   line-height: 51px;
 }
-.home-text08 {
+.home-text06 {
   color: rgb(18, 40, 33);
   font-size: 20px;
   max-width: 600px;
@@ -353,7 +359,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-text09 {
+.home-text07 {
   color: rgb(18, 40, 33);
   font-size: 36px;
   font-style: normal;
@@ -365,20 +371,20 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-text10 {
+.home-text08 {
   color: rgb(18, 40, 33);
   font-size: 16px;
   line-height: 24px;
 }
-.home-text11 {
+.home-text09 {
   color: rgb(18, 40, 33);
   font-size: 16px;
   line-height: 24px;
 }
-.home-navlink1 {
+.home-navlink3 {
   text-decoration: none;
 }
-.home-text12 {
+.home-text10 {
   line-height: 21px;
 }
 .home-image04 {
@@ -422,7 +428,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-text15 {
+.home-text13 {
   color: rgb(18, 40, 33);
   font-size: 40px;
   max-width: 1000px;
@@ -435,14 +441,14 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-text16 {
+.home-text14 {
   color: rgb(18, 40, 33);
   font-size: 20px;
   max-width: 800px;
   font-family: Lato;
   line-height: 30px;
 }
-.home-text17 {
+.home-text15 {
   color: rgb(18, 40, 33);
   font-size: 20px;
   max-width: 800px;
@@ -624,7 +630,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-text18 {
+.home-text16 {
   color: rgb(18, 40, 33);
   width: 100%;
   font-size: 56px;
@@ -633,7 +639,7 @@
   text-align: center;
   font-weight: 500;
 }
-.home-text19 {
+.home-text17 {
   color: rgb(18, 40, 33);
   width: 100%;
   font-size: 20px;
@@ -758,7 +764,7 @@
     padding-right: var(--dl-space-space-oneandhalfunits);
     padding-bottom: var(--dl-space-space-fourunits);
   }
-  .home-text05 {
+  .home-text03 {
     font-size: 18px;
     text-align: center;
     line-height: 23px;
@@ -767,7 +773,7 @@
     width: 100%;
     text-align: center;
   }
-  .home-text06 {
+  .home-text04 {
     font-family: Lato;
   }
   .home-improve {
@@ -794,7 +800,7 @@
     margin-bottom: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-oneandhalfunits);
   }
-  .home-text15 {
+  .home-text13 {
     font-size: 30px;
   }
   .home-gallery-desktop {
@@ -851,10 +857,10 @@
     padding-right: var(--dl-space-space-oneandhalfunits);
     padding-bottom: var(--dl-space-space-threeunits);
   }
-  .home-text18 {
+  .home-text16 {
     font-size: 32px;
   }
-  .home-text19 {
+  .home-text17 {
     font-size: 16px;
     line-height: 24px;
   }
@@ -913,11 +919,11 @@
   .home-mission {
     align-items: center;
   }
-  .home-text07 {
+  .home-text05 {
     font-size: 32px;
     line-height: 41px;
   }
-  .home-text08 {
+  .home-text06 {
     font-size: 16px;
     line-height: 24px;
   }
@@ -936,6 +942,14 @@
   }
 }
 @media(max-width: 479px) {
+  .home-text01 {
+    color: rgb(18, 40, 33);
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .home-navlink1 {
+    text-decoration: none;
+  }
   .home-social-bar {
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-unit);
@@ -945,15 +959,15 @@
   .home-image02 {
     height: 170px;
   }
-  .home-text15 {
+  .home-text13 {
     font-size: 18px;
     line-height: 24px;
   }
-  .home-text16 {
+  .home-text14 {
     font-size: 16px;
     line-height: 24px;
   }
-  .home-text17 {
+  .home-text15 {
     font-size: 16px;
     line-height: 24px;
   }

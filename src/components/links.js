@@ -16,8 +16,6 @@ const Links = (props) => {
           {props.text1}
         </Link>
       </button>
-      <button className="links-button1 button">{props.button}</button>
-      <label className="">{props.text2}</label>
     </nav>
   )
 }
