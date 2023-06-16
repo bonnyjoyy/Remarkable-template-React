@@ -222,6 +222,7 @@
   font-size: 20px;
   text-align: center;
   line-height: 30px;
+  margin-bottom: 10px;
 }
 .contact-form {
   width: 451px;
@@ -310,20 +311,10 @@
   font-weight: 600;
   background-color: transparent;
 }
-.contact-submit {
-  width: 56px;
-  cursor: pointer;
-  height: 56px;
+.contact-button3 {
   display: flex;
-  transition: 0.3s;
-  align-items: center;
-  border-radius: var(--dl-radius-radius-round);
   flex-direction: row;
-  justify-content: center;
-  background-color: #122821;
-}
-.contact-submit:hover {
-  background-color: #408770;
+  background-color: #222d20;
 }
 .contact-image {
   width: 18px;

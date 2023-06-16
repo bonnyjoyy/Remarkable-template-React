@@ -97,7 +97,7 @@ const Contact = (props) => {
             Let&apos;s get started, how can I help?
           </p>
         </div>
-        <form className="contact-form">
+        <form name="contact" className="contact-form">
           <div className="contact-container1">
             <div className="contact-name">
               <input
@@ -118,9 +118,9 @@ const Contact = (props) => {
                 placeholder="Enter your email"
                 className="contact-textinput1 input"
               />
-              <div className="contact-submit">
+              <button type="button" className="contact-button3 button">
                 <img alt="image" src="/frame.svg" className="contact-image" />
-              </div>
+              </button>
             </div>
             <span className="contact-notice">
               By submitting this form you are giving permission  for Artistree
