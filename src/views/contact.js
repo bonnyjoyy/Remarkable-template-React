@@ -103,16 +103,25 @@ const Contact = (props) => {
         </div>
         <form name="contact" netlify className="contact-form">
           <div className="contact-container2">
+            <input
+              type="hidden"
+              placeholder="placeholder"
+              name="subject"
+              value="Sales inquiry from mysitename.netlify.app"
+              className="input"
+            />
             <div className="contact-name">
               <input
                 type="text"
                 placeholder="Enter your Name"
-                className="contact-textinput input"
+                name="name"
+                className="contact-textinput1 input"
               />
             </div>
             <div className="contact-question">
               <textarea
                 placeholder="Enter question here"
+                name="message"
                 className="contact-textarea input"
               ></textarea>
             </div>
@@ -120,9 +129,10 @@ const Contact = (props) => {
               <input
                 type="text"
                 placeholder="Enter your email"
-                className="contact-textinput1 input"
+                name="email"
+                className="contact-textinput2 input"
               />
-              <button type="button" className="contact-button3 button">
+              <button type="submit" className="contact-button3 button">
                 <img alt="image" src="/frame.svg" className="contact-image" />
               </button>
             </div>
@@ -133,6 +143,9 @@ const Contact = (props) => {
             </span>
           </div>
         </form>
+        <li className="list-item">
+          <span>Text</span>
+        </li>
       </section>
       <Footer></Footer>
       <div>

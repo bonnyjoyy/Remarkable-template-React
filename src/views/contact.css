@@ -263,7 +263,7 @@
   justify-content: center;
   background-color: #F3F3F3;
 }
-.contact-textinput {
+.contact-textinput1 {
   flex: 1;
   color: #122821;
   outline: inherit;
@@ -311,7 +311,7 @@
   justify-content: center;
   background-color: #F3F3F3;
 }
-.contact-textinput1 {
+.contact-textinput2 {
   flex: 1;
   color: #122821;
   outline: inherit;
