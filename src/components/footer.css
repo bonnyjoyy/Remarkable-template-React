@@ -57,12 +57,13 @@
   height: 18px;
   object-fit: cover;
 }
-.footer-text1 {
+.footer-navlink {
   color: rgb(18, 40, 33);
   width: 100%;
   font-size: 18px;
   font-family: Lato;
   line-height: 18px;
+  text-decoration: none;
 }
 .footer-contact1 {
   gap: 11px;
@@ -78,7 +79,7 @@
   margin-left: 3px;
   margin-right: 3px;
 }
-.footer-text2 {
+.footer-text1 {
   color: rgb(18, 40, 33);
   width: 100%;
   font-size: 18px;
@@ -111,6 +112,9 @@
   display: flex;
   align-items: flex-start;
   flex-direction: column;
+}
+.footer-text5 {
+  text-decoration: none;
 }
 @media(max-width: 991px) {
   .footer-footer {

@@ -263,7 +263,8 @@
   padding-bottom: 120px;
 }
 .home-text06 {
-  color: rgba(18, 40, 33, 1);
+  color: rgb(18, 40, 33);
+  width: 918px;
   font-size: 40px;
   max-width: 1000px;
   font-style: normal;
@@ -364,6 +365,9 @@
   color: rgb(18, 40, 33);
   font-size: 16px;
   line-height: 24px;
+}
+.home-navlink {
+  text-decoration: none;
 }
 .home-text13 {
   line-height: 21px;

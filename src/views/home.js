@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import Script from 'dangerous-html/react'
 import { Helmet } from 'react-helmet'
@@ -101,11 +102,12 @@ const Home = (props) => {
       </header>
       <section className="home-mission">
         <h2 className="home-text06">
-          Scale your small lorem ipsum dolor sit amet, consectetur adipiscing
-          elit, sed do eiusmod tempor incididunt ut labore et dolore.
+          Join me in a relaxed environment and explore paint mediums and styles.
+          Create a piece that you can be proud of and speaks to your
+          individuality as an artist.
         </h2>
         <button className="button home-button3">
-          <span className="home-text07">Learn about our mission</span>
+          <span className="home-text07">Get in touch</span>
         </button>
       </section>
       <section className="home-improve">
@@ -145,12 +147,12 @@ const Home = (props) => {
                   </p>
                 </div>
               </div>
-              <button className="button">
+              <Link to="/contact" className="home-navlink button">
                 <span className="home-text13">
                   <span>Get in touch</span>
                   <br></br>
                 </span>
-              </button>
+              </Link>
             </div>
             <div className="home-image04">
               <img

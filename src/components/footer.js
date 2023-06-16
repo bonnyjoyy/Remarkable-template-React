@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import PropTypes from 'prop-types'
 
@@ -21,7 +22,9 @@ const Footer = (props) => {
                 src={props.image_src}
                 className="footer-image"
               />
-              <span className="footer-text1">{props.text1}</span>
+              <Link to="/contact" className="footer-navlink">
+                {props.text1}
+              </Link>
             </div>
             <div className="footer-contact1">
               <img
@@ -29,7 +32,7 @@ const Footer = (props) => {
                 src={props.image_src1}
                 className="footer-image1"
               />
-              <span className="footer-text2">{props.text2}</span>
+              <span className="footer-text1">{props.text2}</span>
             </div>
           </div>
         </div>
@@ -41,7 +44,14 @@ const Footer = (props) => {
           <span className="link">{props.Text6}</span>
           <span className="link">{props.Text7}</span>
           <span className="link">{props.Text8}</span>
-          <span className="link">{props.Text9}</span>
+          <a
+            href="https://www.facebook.com/chibi.cgreen"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="footer-text5 link"
+          >
+            {props.Text9}
+          </a>
         </div>
       </div>
     </footer>
@@ -63,7 +73,7 @@ Footer.defaultProps = {
   Text4: 'Blog',
   Text6: 'Linkedin',
   Text2: 'Events',
-  text2: '+0 222.345.987',
+  text2: '',
   image_alt1: 'image',
   image_src1: '/group%201640.svg',
   Text7: 'Instagram',
