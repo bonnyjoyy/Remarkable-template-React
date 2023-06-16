@@ -127,7 +127,7 @@ const Contact = (props) => {
             </div>
             <div className="contact-email">
               <input
-                type="text"
+                type="email"
                 placeholder="Enter your email"
                 name="email"
                 className="contact-textinput2 input"
@@ -143,9 +143,6 @@ const Contact = (props) => {
             </span>
           </div>
         </form>
-        <li className="list-item">
-          <span>Text</span>
-        </li>
       </section>
       <Footer></Footer>
       <div>
