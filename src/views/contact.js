@@ -3,6 +3,7 @@ import React from 'react'
 import Script from 'dangerous-html/react'
 import { Helmet } from 'react-helmet'
 
+import Links from '../components/links'
 import Footer from '../components/footer'
 import './contact.css'
 
@@ -27,6 +28,9 @@ const Contact = (props) => {
             data-role="Nav"
             className="contact-desktop-menu"
           ></div>
+          <div className="contact-container1">
+            <Links rootClassName="links-root-class-name1"></Links>
+          </div>
           <div data-thq="thq-burger-menu" className="contact-burger-menu">
             <img
               alt="image"
@@ -97,8 +101,8 @@ const Contact = (props) => {
             Let&apos;s get started, how can I help?
           </p>
         </div>
-        <form name="contact" className="contact-form">
-          <div className="contact-container1">
+        <form name="contact" netlify="netlify" className="contact-form">
+          <div className="contact-container2">
             <div className="contact-name">
               <input
                 type="text"

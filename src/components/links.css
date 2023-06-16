@@ -6,6 +6,19 @@
   flex-direction: row;
   justify-content: center;
 }
+.links-navlink {
+  color: rgb(18, 40, 33);
+  font-size: 18px;
+  font-family: Lato;
+  line-height: 27px;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: 0px;
+  border-radius: 0px;
+  padding-right: 0px;
+  padding-bottom: var(--dl-space-space-halfunit);
+  text-decoration: none;
+  background-color: transparent;
+}
 .links-button {
   color: rgb(18, 40, 33);
   font-size: 18px;
@@ -18,19 +31,10 @@
   padding-bottom: var(--dl-space-space-halfunit);
   background-color: transparent;
 }
-.links-button1 {
-  color: rgb(18, 40, 33);
-  font-size: 18px;
-  font-family: Lato;
-  line-height: 27px;
-  padding-top: var(--dl-space-space-halfunit);
-  padding-left: 0px;
-  border-radius: 0px;
-  padding-right: 0px;
-  padding-bottom: var(--dl-space-space-halfunit);
-  background-color: transparent;
+.links-navlink1 {
+  text-decoration: none;
 }
-.links-button2 {
+.links-button1 {
   color: rgb(18, 40, 33);
   font-size: 18px;
   font-family: Lato;
@@ -44,3 +48,5 @@
   background-color: transparent;
   border-left-width: 1px;
 }
+
+

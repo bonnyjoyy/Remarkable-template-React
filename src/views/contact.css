@@ -52,6 +52,14 @@
 .contact-desktop-menu {
   display: flex;
 }
+.contact-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: space-between;
+  flex-direction: column;
+}
 .contact-burger-menu {
   display: none;
   align-items: center;
@@ -231,7 +239,7 @@
   align-items: center;
   justify-content: center;
 }
-.contact-container1 {
+.contact-container2 {
   flex: 0 0 auto;
   width: 400px;
   height: auto;

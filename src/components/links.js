@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import PropTypes from 'prop-types'
 
@@ -6,28 +7,32 @@ import './links.css'
 
 const Links = (props) => {
   return (
-    <nav className="links-links">
+    <nav className={`links-links ${props.rootClassName} `}>
+      <Link to="/contact" className="links-navlink button">
+        <span className="">{props.text}</span>
+      </Link>
       <button className="links-button button">
-        <span>{props.text}</span>
+        <Link to="/" className="links-navlink1">
+          {props.text1}
+        </Link>
       </button>
-      <button className="links-button1 button">
-        <span>{props.text1}</span>
-      </button>
-      <button className="links-button2 button">{props.button}</button>
+      <button className="links-button1 button">{props.button}</button>
     </nav>
   )
 }
 
 Links.defaultProps = {
   button: 'Menu',
-  text: 'Our offers',
-  text1: 'Get a fast quote',
+  text: 'Contact',
+  text1: 'Home',
+  rootClassName: '',
 }
 
 Links.propTypes = {
   button: PropTypes.string,
   text: PropTypes.string,
   text1: PropTypes.string,
+  rootClassName: PropTypes.string,
 }
 
 export default Links
