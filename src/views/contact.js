@@ -101,7 +101,13 @@ const Contact = (props) => {
             Let&apos;s get started, how can I help?
           </p>
         </div>
-        <form name="contact" netlify action="/thanks" className="contact-form">
+        <form
+          name="contact"
+          netlify
+          action="/thanks"
+          method="POST"
+          className="contact-form"
+        >
           <div className="contact-container2">
             <input
               type="hidden"

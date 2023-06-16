@@ -106,7 +106,13 @@ const Thanks = (props) => {
             <br></br>
           </p>
         </div>
-        <form name="contact" netlify action="thanks" className="thanks-form">
+        <form
+          name="contact"
+          netlify
+          action="thanks"
+          method="POST"
+          className="thanks-form"
+        >
           <div className="thanks-container2">
             <input
               type="hidden"
