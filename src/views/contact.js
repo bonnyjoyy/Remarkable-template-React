@@ -104,7 +104,6 @@ const Contact = (props) => {
         <form
           name="contact"
           netlify
-          action="/thanks"
           method="POST"
           id="contact_form"
           className="contact-form"
