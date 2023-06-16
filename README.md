@@ -1,1 +1,1 @@
-# Remarkable-template-React
+# Remarkable-template-React template for Netlify
