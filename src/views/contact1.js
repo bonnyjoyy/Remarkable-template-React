@@ -104,7 +104,7 @@ const Contact1 = (props) => {
         <div className="contact1-div">
           <Script
             html={`   <form name="contact" method="POST" data-netlify="true" 
-    data-netlify-honeypot="bot-field" action="/success/"
+    data-netlify-honeypot="bot-field" action="/success"
     onSubmit="submit">
         <input class="d-none" name="bot-field" />
         <div class="form-row">
