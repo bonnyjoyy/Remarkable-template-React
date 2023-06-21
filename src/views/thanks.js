@@ -108,39 +108,39 @@ const Thanks = (props) => {
         </div>
         <form
           name="contact"
-          netlify
           action="thanks"
           method="POST"
+          data-netlify="true"
           className="thanks-form"
         >
           <div className="thanks-container2">
             <input
               type="hidden"
-              placeholder="placeholder"
               name="subject"
               value="Sales inquiry from mysitename.netlify.app"
+              placeholder="placeholder"
               className="input"
             />
             <div className="thanks-name">
               <input
                 type="text"
-                placeholder="Enter your Name"
                 name="name"
+                placeholder="Enter your Name"
                 className="thanks-textinput1 input"
               />
             </div>
             <div className="thanks-question">
               <textarea
-                placeholder="Enter question here"
                 name="message"
+                placeholder="Enter question here"
                 className="thanks-textarea input"
               ></textarea>
             </div>
             <div className="thanks-email">
               <input
                 type="email"
-                placeholder="Enter your email"
                 name="email"
+                placeholder="Enter your email"
                 className="thanks-textinput2 input"
               />
               <button type="submit" className="thanks-button3 button">

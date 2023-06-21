@@ -102,41 +102,41 @@ const Contact = (props) => {
           </p>
         </div>
         <form
-          name="contact"
-          netlify
-          method="POST"
           id="contact_form"
+          name="contact"
+          method="POST"
           enctype="multipart/form-data"
+          netlify
           className="contact-form"
         >
           <div className="contact-container2">
             <input
               type="hidden"
-              placeholder="placeholder"
               name="subject"
               value="Sales inquiry from mysitename.netlify.app"
+              placeholder="placeholder"
               className="input"
             />
             <div className="contact-name">
               <input
                 type="text"
-                placeholder="Enter your Name"
                 name="name"
+                placeholder="Enter your Name"
                 className="contact-textinput1 input"
               />
             </div>
             <div className="contact-question">
               <textarea
-                placeholder="Enter question here"
                 name="message"
+                placeholder="Enter question here"
                 className="contact-textarea input"
               ></textarea>
             </div>
             <div className="contact-email">
               <input
                 type="email"
-                placeholder="Enter your email"
                 name="email"
+                placeholder="Enter your email"
                 className="contact-textinput2 input"
               />
               <button type="submit" className="contact-button3 button">

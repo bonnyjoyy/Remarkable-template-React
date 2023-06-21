@@ -21,19 +21,19 @@ const Links = (props) => {
 }
 
 Links.defaultProps = {
+  rootClassName: '',
   button: 'Menu',
+  text2: 'Label',
   text: 'Contact',
   text1: 'Home',
-  rootClassName: '',
-  text2: 'Label',
 }
 
 Links.propTypes = {
+  rootClassName: PropTypes.string,
   button: PropTypes.string,
+  text2: PropTypes.string,
   text: PropTypes.string,
   text1: PropTypes.string,
-  rootClassName: PropTypes.string,
-  text2: PropTypes.string,
 }
 
 export default Links
