@@ -117,12 +117,18 @@ const Contact = (props) => {
               placeholder="placeholder"
               className="input"
             />
+            <input
+              type="hidden"
+              name="form-name"
+              value="contact"
+              className="input"
+            />
             <div className="contact-name">
               <input
                 type="text"
                 name="name"
                 placeholder="Enter your Name"
-                className="contact-textinput1 input"
+                className="contact-textinput2 input"
               />
             </div>
             <div className="contact-question">
@@ -137,7 +143,7 @@ const Contact = (props) => {
                 type="email"
                 name="email"
                 placeholder="Enter your email"
-                className="contact-textinput2 input"
+                className="contact-textinput3 input"
               />
               <button type="submit" className="contact-button3 button">
                 <img alt="image" src="/frame.svg" className="contact-image" />
@@ -151,31 +157,6 @@ const Contact = (props) => {
           </div>
         </form>
       </section>
-      <div>
-        <Script
-          html={`<script>
-const handleSubmit = (event) => {
-  event.preventDefault();
-
-  const myForm = event.target;
-  const formData = new FormData(myForm);
-  
-  fetch("/", {
-    method: "POST",
-    headers: { "Content-Type": "application/x-www-form-urlencoded" },
-    body: new URLSearchParams(formData).toString(),
-  })
-    .then(() => console.log("Form successfully submitted"))
-    .catch((error) => alert(error));
-};
-
-document
-  .querySelector("form")
-  .addEventListener("submit", handleSubmit);
-
-</script>`}
-        ></Script>
-      </div>
       <Footer></Footer>
       <div>
         <Script
