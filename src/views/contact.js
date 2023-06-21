@@ -95,6 +95,15 @@ const Contact = (props) => {
         </header>
       </div>
       <section className="contact-newsletter">
+        <div>
+          <Script
+            html={`   <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <textarea name="message"></textarea>
+    </form>`}
+          ></Script>
+        </div>
         <div className="contact-header">
           <h2 className="contact-text6">Get in touch</h2>
           <p className="contact-text7">
