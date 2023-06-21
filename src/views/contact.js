@@ -154,29 +154,25 @@ const Contact = (props) => {
       <div>
         <Script
           html={`<script>
-  document
-    .querySelector("form")
-    .addEventListener("submit", handleSubmit);
- 
-  function handleSubmit(e) {
- 
-    e.preventDefault();
- 
-    let myForm = document.getElementById("contact_form");
-    let formData = new FormData(myForm);
-    formData.set("form-name", "contact");
- 
-    fetch("/", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: new URLSearchParams(formData).toString(),
-    })
-      .then(response => {
-        console.log(response);
-        setTimeout(() => location = "/success", 100);
-      })
-      .catch((error) => alert(error));
-  };
+const handleSubmit = (event) => {
+  event.preventDefault();
+
+  const myForm = event.target;
+  const formData = new FormData(myForm);
+  
+  fetch("/", {
+    method: "POST",
+    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    body: new URLSearchParams(formData).toString(),
+  })
+    .then(() => console.log("Form successfully submitted"))
+    .catch((error) => alert(error));
+};
+
+document
+  .querySelector("form")
+  .addEventListener("submit", handleSubmit);
+
 </script>`}
         ></Script>
       </div>
