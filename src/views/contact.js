@@ -106,7 +106,7 @@ const Contact = (props) => {
           name="contact"
           method="POST"
           enctype="multipart/form-data"
-          netlify
+          data-netlify="true"
           className="contact-form"
         >
           <div className="contact-container2">
