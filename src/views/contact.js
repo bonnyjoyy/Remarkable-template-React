@@ -116,6 +116,7 @@ const Contact = (props) => {
           method="POST"
           enctype="multipart/form-data"
           data-netlify="true"
+          action="/success"
           className="contact-form"
         >
           <div className="contact-container2">
